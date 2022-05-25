@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.airplane {
+    font-size: 3.5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url('../fonts/Starjedi.ttf');
+}
+  
+.jedi {
+    font-family: Starjedi;
+    font-size: 7rem;
+    letter-spacing: 0.6rem;
+    outline: 5px #fff solid;
+    outline-offset: 40px;
+}

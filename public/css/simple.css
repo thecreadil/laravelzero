@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+}
+body {
+    font-family: monospace;
+    color: #fff;
+}
+
+.button {
+    text-decoration: none;
+    border: solid #fff 2px;
+    padding: 5px 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 5px;
+}
+
+input[type='submit'] {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formContainer {
+   width: 50%;
+}
